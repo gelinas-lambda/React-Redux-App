@@ -1,10 +1,12 @@
 import React from 'react';
 
+import BeerList from './components/BeerList'
+
 function App() {
   return (
     <div className="boxes">
       <div className="box">
-        box one
+        <BeerList />
       </div>
       <div className="box">
         box two
